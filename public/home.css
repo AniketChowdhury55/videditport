@@ -1,0 +1,934 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Style for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Style the container to have a black background */
+body {
+  background-color: black;
+}
+
+/* Style for Webkit (Chrome, Safari, Opera) */
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+}
+
+/* Style for Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: black;
+}
+
+/* Style the track */
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Style the thumb */
+body::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+
+.body{
+  background-color: black;
+}
+.nav{
+    text-decoration: none;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.home{
+ cursor: pointer;
+ text-decoration: none;
+ color: white;
+}
+.contact{
+    cursor: pointer;
+    text-decoration: none;
+ color: white;
+   }
+   .project{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+   }
+
+.home:hover{
+    text-shadow: 0 0 10px white;
+  }
+  
+  .project:hover{
+    text-shadow: 0 0 10px white;
+  }
+  
+  .contact:hover{
+    text-shadow: 0 0 10px white;
+  }
+  
+.back{
+    background: url(/Countdown\ Intro\ 3D\ Video\ in\ blue\ Purple\ black\ Bold\ Tech\ Style.gif);
+    height: 600px;
+    width: 100%;
+    background-repeat: none; 
+     background-size: cover;
+}  
+
+
+.welcome{
+    height: 200px;
+    width: 100%;
+   background: transparent;
+   position: relative;
+   top: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.welcome h1{
+  color: white;
+  background: transparent;
+  font-size: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .see-project{
+  color: white;
+  background-color;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  border: none;
+}
+
+.see-project:hover{
+  color: black;
+  background-color: white;
+} */
+
+         
+.see-project {
+  text-decoration: none;
+  background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED  51%, #56CCF2  100%);
+  text-decoration: none;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #000;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+}
+
+.see-project:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+}
+
+.resdf{
+  position: absolute;
+  top: 150px;
+  font-size: .8rem;
+  color: white;
+}
+
+.mid-part{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+}
+
+.mid-part1{
+  width: 50%;
+  height: 500px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid-part1 h1{
+  
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.Aniket{
+  color: #fffda5;
+  text-decoration: none;
+}
+
+.mid-part2{
+  width: 50%;
+  height: 500px;
+  background: url(/FULL\ LOGO\ AND\ TEXT.gif);
+  background-repeat: none;
+  background-size: cover;
+}
+
+.second-mid-part{
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.circle1 {
+  height: 200px;
+  width: 200px;
+  background: url(/circle2.gif);
+  background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+top: 1275px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.circle1 img{
+  height: 125px;
+  width: 125px;
+opacity: .8;
+}
+.circle1 img:hover{
+  height: 125px;
+  width: 125px;
+opacity: 1;
+}
+.circle2 {
+  height: 200px;
+  width: 200px;
+  background: url(/circle2.gif);
+  background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+top: 1275px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 400px;
+}
+
+.circle2 img{
+  height: 100px;
+  width: 100px;
+opacity: .8;
+}
+.circle2 img:hover{
+  height: 100px;
+  width: 100px;
+opacity: 1;
+}
+
+.circle3 {
+  height: 200px;
+  width: 200px;
+  background: url(/circle2.gif);
+  background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+top: 1275px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 800px;
+}
+
+.circle3 img{
+  height: 100px;
+  width: 100px;
+opacity: .8;
+}
+.circle3 img:hover{
+  height: 100px;
+  width: 100px;
+opacity: 1;
+}
+
+.circle4 {
+  height: 200px;
+  width: 200px;
+  background: url(/circle2.gif);
+  background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+top: 1275px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 1200px;
+}
+
+.circle4 img{
+  height: 100px;
+  width: 100px;
+opacity: .8;
+}
+.circle4 img:hover{
+  height: 100px;
+  width: 100px;
+opacity: 1;
+}
+
+
+.software{
+  color: white;
+  height: 150px ;
+  position: absolute;
+  top: 1550px;
+  left: 750px;
+}
+
+.software h1{
+  font-size: 50px;
+}
+
+.software {
+
+  font-size: 1000px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #000;
+}
+
+.evohub{
+  background-color: black;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.evohub img{
+  height: 500px;
+  opacity: .7;
+  width: max-content;
+}
+.evohub img:hover{
+  height: 500px;
+  opacity: 1 ;
+  width: max-content;
+}
+
+.imgevo{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 500px;
+}
+
+.evohub h1{
+  color: #fffda5;
+  font-size: 80px;
+}
+
+.evohub p{
+  color: white;
+  font-size: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer{
+  background-color: rgb(27, 27, 27);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.follow{
+  color: white;
+  background: transparent;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  
+}
+
+
+.cc{
+  height: 30px;
+  background: transparent;
+  opacity: .8;
+}
+
+.cc:hover{
+  height: 30px;
+  background: transparent;
+  opacity: 1;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30px;
+  width: 60%;
+  padding-bottom: 50px;
+}
+
+/* contact page */
+
+.background{
+  background: url(/Modern\ Animated\ Neutral\ Thank\ You\ Video.gif);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.back-pro{
+  background: url(/Black\ and\ White\ Minimalist\ Welcome\ To\ My\ Channel\ YouTube\ Intro\ Video.gif);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.contact-section {
+  margin-top: 150px;
+  color: #E16036;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.submit {
+  background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED  51%, #56CCF2  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #000;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+.feedback {
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0; /* Change to your desired background color */
+  outline: none; /* Remove outline when clicked */
+  padding: 10px; /* Add inner padding */  
+}
+
+.email {
+  width: 545px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px; /* Add inner padding */  
+  outline: none; /* Remove outline when clicked */
+}
+
+.contact-submit-feedback {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  color: white;
+}
+
+.First-contact-us {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  color: white;
+}
+
+.First-contact-us p {
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+/* project */
+
+.videos {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.iup{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+
+/* MEDIA QUEARY FOR THE REPONSIVE WEBSITE */
+
+@media screen and (max-width:500px) {
+  .nav{
+    font-size: 20px;
+  }
+  .welcome h1 {
+    color: white;
+    background: transparent;
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back {
+  background: url(/Countdown\ Intro\ 3D\ Video\ in\ blue\ Purple\ black\ Bold\ Tech\ Style.gif);
+  height: 400px;
+  width: 100%;
+  background-repeat: none;
+  background-size: cover;
+}
+.see-project {
+  background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED 51%, #56CCF2 100%);
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #000;
+  border-radius: 10px;
+  display: block;
+  border: none;
+}
+.welcome {
+  height: 100px;
+  width: 100%;
+  background: transparent;
+  position: relative;
+  top: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mid-part {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mid-part1 {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mid-part2 {
+  width: 100%;
+  height: 250px;
+  background: url(/FULL\ LOGO\ AND\ TEXT.gif);
+  background-repeat: none;
+  background-size: cover;
+}
+
+.mid-part1 h1 {
+  margin-left: 40px;
+  margin-right: 35px;
+  font-size: 1rem;
+}
+.circle1 img {
+  height: 75px;
+  width: 75px;
+}.circle2 img {
+  height: 75px;
+  width: 75px;
+}.circle3 img {
+  height: 75px;
+  width: 75px;
+}.circle4 img {
+  height: 75px;
+  width: 75px;
+}
+.circle1 {
+  height: 150px;
+  width: 150px;
+  background: url(/circle2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 930px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 42px;
+}
+.circle2 {
+  height: 150px;
+  width: 150px;
+  background: url(/circle2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 930px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* left: -150px; */
+  right: 40px;
+}
+
+.circle3 {
+  height: 150px;
+  width: 150px;
+  background: url(/circle2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -760px;
+}
+.circle4 {
+  height: 150px;
+  width: 150px;
+  background: url(/circle2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -959px;
+}
+.software{
+  color: white;
+  height: 150px ;
+  position: absolute;
+  top: 1300px;
+  left: 120px;
+}
+.software h1{
+  font-size: 30px;
+}
+.evohub img {
+  height: 283px;
+  opacity: .7;
+  width: 100%;
+  padding-left: 20px;
+}
+.evohub img:hover{
+  height: 283px;
+  opacity: 1 ;
+  width: 100%;
+  padding-left: 20px;
+}
+.imgevo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 283px;
+}
+.evohub {
+  background-color: black;
+  height: 355px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid white;
+}
+.evohub h1 {
+  color: white;
+  font-size: 35px;
+}
+.second-mid-part {
+  height: 441px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.evohub img {
+  height: 112px;
+  opacity: .7;
+  width: 45%;
+  padding-left: 20px;
+}
+.evohub p {
+  color: white;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.imgevo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 108px;
+}
+}
+
+
+@media screen and (max-width:360px),(max-height:800){
+  .nav {
+    text-decoration: none;
+    height: 100px;
+    width: 113%;
+    background-color: black;
+    color: white;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}    .back {
+  background: url(/Countdown\ Intro\ 3D\ Video\ in\ blue\ Purple\ black\ Bold\ Tech\ Style.gif);
+  height: 400px;
+  width: 118%;
+  background-repeat: none;
+  background-size: cover;
+}
+.mid-part1 h1 {
+  margin-left: 76px;
+  margin-right: 24px;
+  font-size: 1rem;
+}
+.mid-part2 {
+  width: 117%;
+  height: 205px;
+  background: url(/FULL\ LOGO\ AND\ TEXT.gif);
+  background-repeat: none;
+  background-size: contain;
+  margin-left: 48px;
+}
+.circle1 {
+  height: 100px;
+  width: 97px;
+  background: url(/circle2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 930px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 73px;
+}
+.circle2 {
+  height: 100px;
+  width: 98px;
+  background: url(/circle2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 930px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* left: -150px; */
+  right: 14px;
+}
+.circle2 img {
+  height: 59px;
+  width: 59px;
+}
+.circle3 {
+  height: 100px;
+  width: 98px;
+  background: url(/circle2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1054px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -730px;
+}
+.circle4 {
+  height: 100px;
+  width: 98px;
+  background: url(/circle2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1056px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -952px;
+}
+.circle3 img {
+  height: 58px;
+  width: 58px;
+}
+.software {
+  color: white;
+  height: 50px;
+  position: absolute;
+  top: 1172px;
+  left: 112px;
+}
+.evohub {
+  background-color: black;
+  height: 401px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid white;
+  width: 123%;
+}
+.second-mid-part {
+  height: 315px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.evohub img {
+  height: 112px;
+  opacity: .7;
+  width: 45%;
+  /* padding-left: 20px; */
+}
+.evohub img:hover {
+  height: 150px;
+  opacity: 1;
+  /* width: 100%; */
+  /* padding-left: 20px; */
+}
+.footer {
+  background-color: rgb(27, 27, 27);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125%;
+  flex-wrap: wrap;
+}
+
+}
+
+
+@media screen and (max-width:1366px),(max-height:768px){
+  .nav {
+    text-decoration: none;
+    height: 100px;
+    width: 125%;
+    background-color: black;
+    color: white;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+.back {
+  background: url(/Countdown\ Intro\ 3D\ Video\ in\ blue\ Purple\ black\ Bold\ Tech\ Style.gif);
+  height: 600px;
+  width: 134%;
+  background-repeat: none;
+  background-size: cover;
+}
+.mid-part1 {
+  width: 107%;
+  height: 500px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mid-part2 {
+  width: 136%;
+  height: 500px;
+  background: url(/FULL\ LOGO\ AND\ TEXT.gif);
+  background-repeat: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 1000px;
+  /* padding-left: 200px; */
+  position: absolute;
+}
+}
