@@ -57,22 +57,42 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: space-evenly;
     font-size: 25px;
+
+
 }
 
 .home{
  cursor: pointer;
  text-decoration: none;
  color: white;
+ 
+ height: 100%;
+ width: 25%;
+ display:flex;
+ align-items: center;
+ justify-content: center;
 }
 .contact{
     cursor: pointer;
     text-decoration: none;
  color: white;
+
+ height: 100%;
+ width: 25%;
+ display:flex;
+ align-items: center;
+ justify-content: center;
    }
    .project{
     cursor: pointer;
     text-decoration: none;
     color: white;
+ 
+    height: 100%;
+    width: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
    }
 
 .home:hover{
@@ -97,15 +117,14 @@ body::-webkit-scrollbar-thumb {
 
 
 .welcome{
-    height: 200px;
+    height: 600px;
     width: 100%;
    background: transparent;
    position: relative;
-   top: 200px;
    display: flex;
-   align-items: center;
    justify-content: center;
    flex-wrap: wrap;
+  
 }
 
 .welcome h1{
@@ -113,28 +132,18 @@ body::-webkit-scrollbar-thumb {
   background: transparent;
   font-size: 70px;
   width: 100%;
+  height: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
 
-/* .see-project{
-  color: white;
-  background-color;
-  border-radius: 10px;
-  height: 50px;
-  width: 150px;
-  border: none;
+.welcome a{
+  text-decoration: none;
 }
-
-.see-project:hover{
-  color: black;
-  background-color: white;
-} */
-
          
 .see-project {
-  text-decoration: none;
   background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED  51%, #56CCF2  100%);
   text-decoration: none;
   margin: 10px;
@@ -149,8 +158,9 @@ body::-webkit-scrollbar-thumb {
   display: block;
   border: none;
   cursor: pointer;
-  height: 40px;
-  width: 150px;
+  height: 70px;
+  width: 200px;
+  margin-bottom: 300px;
 }
 
 .see-project:hover {
@@ -158,19 +168,11 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
-.resdf{
-  position: absolute;
-  top: 150px;
-  font-size: .8rem;
-  color: white;
-}
-
 .mid-part{
   height: 500px;
-  width: 100%;
+  width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content:center ;
+  flex-wrap: wrap;
 }
 
 .mid-part1{
@@ -209,8 +211,20 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 1200px;
+}
+
+.div{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .circle1 {
@@ -219,8 +233,7 @@ body::-webkit-scrollbar-thumb {
   background: url(/circle2.gif);
   background-size: cover;
 background-repeat: no-repeat;
-position: absolute;
-top: 1275px;
+position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -242,12 +255,10 @@ opacity: 1;
   background: url(/circle2.gif);
   background-size: cover;
 background-repeat: no-repeat;
-position: absolute;
-top: 1275px;
+position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-left: 400px;
 }
 
 .circle2 img{
@@ -267,12 +278,10 @@ opacity: 1;
   background: url(/circle2.gif);
   background-size: cover;
 background-repeat: no-repeat;
-position: absolute;
-top: 1275px;
+position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-left: 800px;
 }
 
 .circle3 img{
@@ -292,12 +301,10 @@ opacity: 1;
   background: url(/circle2.gif);
   background-size: cover;
 background-repeat: no-repeat;
-position: absolute;
-top: 1275px;
+position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-left: 1200px;
 }
 
 .circle4 img{
@@ -314,41 +321,37 @@ opacity: 1;
 
 .software{
   color: white;
-  height: 150px ;
-  position: absolute;
-  top: 1550px;
-  left: 750px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .software h1{
   font-size: 50px;
 }
 
-.software {
-
-  font-size: 1000px;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 2px solid #000;
-}
-
-.evohub{
+.evohub {
   background-color: black;
   height: 1000px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  position: absolute;
+  top: 1674px;
+  width: 100%;
 }
-
 .evohub img{
   height: 500px;
   opacity: .7;
-  width: max-content;
+  width: 800px;
 }
 .evohub img:hover{
   height: 500px;
   opacity: 1 ;
-  width: max-content;
+  width: 800px;
+  
 }
 
 .imgevo{
@@ -371,6 +374,7 @@ height: 500px;
   margin-right: 200px;
   text-align: center;
   margin-top: 20px;
+  padding-bottom: 50px;
 }
 
 .footer{
@@ -382,6 +386,7 @@ height: 500px;
   width: 100%;
   flex-wrap: wrap;
 }
+
 
 .follow{
   color: white;
@@ -395,32 +400,10 @@ height: 500px;
   
 }
 
-
-.cc{
-  height: 30px;
-  background: transparent;
-  opacity: .8;
-}
-
-.cc:hover{
-  height: 30px;
-  background: transparent;
-  opacity: 1;
-}
-
-.icons{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 30px;
-  width: 60%;
-  padding-bottom: 50px;
-}
-
 /* contact page */
 
 .background{
-  background: url(/Modern\ Animated\ Neutral\ Thank\ You\ Video.gif);
+  /* background: url(/Modern\ Animated\ Neutral\ Thank\ You\ Video.gif); */
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -428,8 +411,12 @@ height: 500px;
   justify-content: center;
   flex-wrap: wrap;
 }
+.background img{
+  height: 100vh;
+  width: 100vw;
+}
+
 .back-pro{
-  background: url(/Black\ and\ White\ Minimalist\ Welcome\ To\ My\ Channel\ YouTube\ Intro\ Video.gif);
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -438,6 +425,12 @@ height: 500px;
   flex-wrap: wrap;
 }
 
+.back-pro img {
+    vertical-align: middle;
+    width: 100%;
+    /* height: max-content; */
+
+}
 
 .contact-section {
   margin-top: 150px;
@@ -478,7 +471,7 @@ height: 500px;
 }
 
 .email {
-  width: 545px;
+  width: 300px;
   border-radius: 10px;
   border: none;
   padding: 10px; /* Add inner padding */  
@@ -488,7 +481,8 @@ height: 500px;
 .contact-submit-feedback {
   position: absolute;
   top: 400px;
-  left: 200px;
+  left: 20px;
+  padding-left: 200px;
   color: white;
 }
 
@@ -508,13 +502,18 @@ height: 500px;
 
 .videos {
   width: 100vw;
-  height: 100vh;
+  height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.yt{
+  height: 10em ;
+  width: 17em ;
 }
 
 .iup{
@@ -529,11 +528,143 @@ height: 500px;
 }
 
 
-/* MEDIA QUEARY FOR THE REPONSIVE WEBSITE */
-
-@media screen and (max-width:500px) {
+/* MEDIA QUEARY FOR THE REPONSIVE WEBSITE  */
+/* media 1024px */
+@media  ( max-width:1024px) {
   .nav{
     font-size: 20px;
+    width: 100%;
+    height: 50px;
+  }
+  .back {
+    background: url(/Countdown\ Intro\ 3D\ Video\ in\ blue\ Purple\ black\ Bold\ Tech\ Style.gif);
+    height: 400px;
+    width: 100%;
+    background-repeat: none;
+    background-size: cover;
+  }
+  .see-project {
+    background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED 51%, #56CCF2 100%);
+    margin: 10px;
+    padding: 10px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #000; 
+     border-radius: 10px;
+    display: block;
+    border: none;
+    font-size: 17px;
+    height: 65px;
+    width: 200px;
+    margin-bottom: 0px   ;
+  }
+  .welcome {
+    height: 100px;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .welcome h1{
+    color: white;
+    background: transparent;
+    font-size: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: 0px;
+  }
+  
+.mid-part{
+  height: 10px;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mid-part1{
+  width: 50vw;
+  height: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid-part1 h1{
+  font-size: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.Aniket{
+  color: #fffda5;
+  text-decoration: none;
+}
+
+.mid-part2{
+  width: 50vw;
+  height: 200px;
+  background: url(/FULL\ LOGO\ AND\ TEXT.gif);
+  background-repeat: none;
+  background-size: cover;
+}
+.second-mid-part {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 656px;
+}
+.evohub {
+  background-color: black;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 1143px;
+  width: 100%;
+}
+.evohub p{
+padding-bottom: 50px;
+}
+.back-pro{
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+  
+}
+
+/* media 414px */
+
+@media (max-width:430px) {
+  .nav{
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
   }
   .welcome h1 {
     color: white;
@@ -543,14 +674,15 @@ height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 .back {
-  background: url(/Countdown\ Intro\ 3D\ Video\ in\ blue\ Purple\ black\ Bold\ Tech\ Style.gif);
-  height: 400px;
-  width: 100%;
-  background-repeat: none;
-  background-size: cover;
-}
+      background: url(/Countdown\ Intro\ 3D\ Video\ in\ blue\ Purple\ black\ Bold\ Tech\ Style.gif);
+      height: 200px;
+      width: 100%;
+      background-repeat: none;
+      background-size: cover;
+    }
+
 .see-project {
   background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED 51%, #56CCF2 100%);
   margin: 10px;
@@ -560,375 +692,378 @@ height: 500px;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #000;
-  border-radius: 10px;
+  box-shadow: 0 0 20px #000; 
+   border-radius: 10px;
   display: block;
   border: none;
+  font-size: 10px;
+  height: 40px;
+  width: 135px;
+  margin-bottom: 0px;
 }
 .welcome {
   height: 100px;
   width: 100%;
   background: transparent;
   position: relative;
-  top: 125px;
+  top: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-.mid-part {
-  height: 400px;
+
+.welcome h1{
+  color: white;
+  background: transparent;
+  font-size: 70px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+.mid-part{
+  height: 10px;
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
 }
-.mid-part1 {
-  width: 100%;
-  height: 150px;
+
+.mid-part1{
+  width: 100vw;
+  height: 200px;
   background-color: black;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.mid-part2 {
-  width: 100%;
-  height: 250px;
+
+.mid-part1 h1{
+  font-size: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.Aniket{
+  color: #fffda5;
+  text-decoration: none;
+}
+
+.mid-part2{
+  width: 100vw;
+  height: 200px;
   background: url(/FULL\ LOGO\ AND\ TEXT.gif);
   background-repeat: none;
   background-size: cover;
 }
 
-.mid-part1 h1 {
-  margin-left: 40px;
-  margin-right: 35px;
-  font-size: 1rem;
-}
-.circle1 img {
-  height: 75px;
-  width: 75px;
-}.circle2 img {
-  height: 75px;
-  width: 75px;
-}.circle3 img {
-  height: 75px;
-  width: 75px;
-}.circle4 img {
-  height: 75px;
-  width: 75px;
-}
-.circle1 {
-  height: 150px;
-  width: 150px;
-  background: url(/circle2.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 930px;
+.second-mid-part {
+  height: 300px;
+  width: 100%;
+  background-color: black;
   display: flex;
   align-items: center;
-  justify-content: center;
-  left: 42px;
+  justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 650px;
+}
+.div {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.circle1 {
+  height: 80px;
+  width: 80px;
+  background: url(/circle2.gif);
+  background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.circle1 img{
+  height: 60px;
+  width: 60px;
+opacity: .8;
+}
+.circle1 img:hover{
+opacity: 1;
 }
 .circle2 {
-  height: 150px;
-  width: 150px;
+  height: 80px;
+  width: 80px;
   background: url(/circle2.gif);
   background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 930px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* left: -150px; */
-  right: 40px;
+background-repeat: no-repeat;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.circle2 img{
+  height:50px;
+  width: 50px;
+opacity: .8;
+}
+.circle2 img:hover{
+opacity: 1;
 }
 
 .circle3 {
-  height: 150px;
-  width: 150px;
+  height: 80px;
+  width: 80px;
   background: url(/circle2.gif);
   background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 1105px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: -760px;
+background-repeat: no-repeat;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
+.circle3 img{
+  height: 50px;
+  width: 50px;
+opacity: .8;
+}
+.circle3 img:hover{
+opacity: 1;
+}
+
 .circle4 {
-  height: 150px;
-  width: 150px;
+  height: 80px;
+  width: 80px;
   background: url(/circle2.gif);
   background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 1105px;
+background-repeat: no-repeat;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.circle4 img{
+  height: 50px;
+  width: 50px;
+opacity: .8;
+}
+.circle4 img:hover{
+  height: 50px;
+  width: 50px;
+opacity: 1;
+}
+.div{
+  height: 200px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  left: -959px;
+  flex-wrap: wrap;
 }
+
 .software{
   color: white;
-  height: 150px ;
-  position: absolute;
-  top: 1300px;
-  left: 120px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .software h1{
   font-size: 30px;
 }
-.evohub img {
-  height: 283px;
+.evohub {
+  background-color: black;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 911px;
+  width: 100%;
+}
+.evohub img{
+  height: 250px;
   opacity: .7;
   width: 100%;
-  padding-left: 20px;
 }
 .evohub img:hover{
-  height: 283px;
+  height: 250px;
   opacity: 1 ;
   width: 100%;
-  padding-left: 20px;
+  
+  
 }
 .imgevo {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 283px;
-}
-.evohub {
-  background-color: black;
-  height: 355px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  border-bottom: 2px solid white;
+  height: 264px;
 }
 .evohub h1 {
-  color: white;
-  font-size: 35px;
-}
-.second-mid-part {
-  height: 441px;
-  width: 100%;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-.evohub img {
-  height: 112px;
-  opacity: .7;
-  width: 45%;
-  padding-left: 20px;
+  color: #fffda5;
+  font-size: 40px;
 }
 .evohub p {
   color: white;
-  font-size: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
+  font-size: 23px;
+  margin-left: 50px;
+  margin-right: 50px;
   text-align: center;
   margin-top: 20px;
-  font-size: 12px;
+  padding-bottom: 50px;
 }
-.imgevo {
+.back-pro{
+  height: 30vh;
+  width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 108px;
-}
-}
-
-
-@media screen and (max-width:360px),(max-height:800){
-  .nav {
-    text-decoration: none;
-    height: 100px;
-    width: 113%;
-    background-color: black;
-    color: white;
-    text-decoration-line: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 20px;
-}    .back {
-  background: url(/Countdown\ Intro\ 3D\ Video\ in\ blue\ Purple\ black\ Bold\ Tech\ Style.gif);
-  height: 400px;
-  width: 118%;
-  background-repeat: none;
-  background-size: cover;
-}
-.mid-part1 h1 {
-  margin-left: 76px;
-  margin-right: 24px;
-  font-size: 1rem;
-}
-.mid-part2 {
-  width: 117%;
-  height: 205px;
-  background: url(/FULL\ LOGO\ AND\ TEXT.gif);
-  background-repeat: none;
-  background-size: contain;
-  margin-left: 48px;
-}
-.circle1 {
-  height: 100px;
-  width: 97px;
-  background: url(/circle2.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 930px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: 73px;
-}
-.circle2 {
-  height: 100px;
-  width: 98px;
-  background: url(/circle2.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 930px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* left: -150px; */
-  right: 14px;
-}
-.circle2 img {
-  height: 59px;
-  width: 59px;
-}
-.circle3 {
-  height: 100px;
-  width: 98px;
-  background: url(/circle2.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 1054px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: -730px;
-}
-.circle4 {
-  height: 100px;
-  width: 98px;
-  background: url(/circle2.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 1056px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: -952px;
-}
-.circle3 img {
-  height: 58px;
-  width: 58px;
-}
-.software {
-  color: white;
-  height: 50px;
-  position: absolute;
-  top: 1172px;
-  left: 112px;
-}
-.evohub {
-  background-color: black;
-  height: 401px;
-  display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border-bottom: 2px solid white;
-  width: 123%;
 }
-.second-mid-part {
-  height: 315px;
+
+.submit {
+  background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED  51%, #56CCF2  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #000;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+.feedback {
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0; /* Change to your desired background color */
+  outline: none; /* Remove outline when clicked */
+  padding: 10px; /* Add inner padding */  
+}
+
+.email {
+  width: 280px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+.contact-submit-feedback {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  color: white;
+  padding-left: 20px;
+}
+.form{
+  height: 400px;
   width: 100%;
-  background-color: black;
+}
+
+.First-contact-us {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  color: white;
+}
+
+.First-contact-us p {
+  font-weight: 700;
+  font-size: 5rem;
+}
+.background img{
+  height: 70vh;
+  width: 100vw;
+  background-size: cover
+}
+.background{
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+}
+
+@media (width:1280) {
+  .second-mid-part {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1198px;
+    padding-bottom: 50px;
+}
+}
+
+.cc{
+  height: 30px;
+  width: max-content;
+  background: transparent;
+  opacity: .6;
+}
+
+.cc:hover{
+  height: 30px;
+  width: max-content;
+  background: transparent;
+  opacity: 1;
+}
+
+.evohub footer img{
+  height: 30px;
+  width: max-content;
+  background: transparent;
+  opacity: .6;
+}
+
+.evohub footer img:hover{
+  height: 30px;
+  width: max-content;
+  background: transparent;
+  opacity: 1;
+}
+
+.icons{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-.evohub img {
-  height: 112px;
-  opacity: .7;
-  width: 45%;
-  /* padding-left: 20px; */
-}
-.evohub img:hover {
-  height: 150px;
-  opacity: 1;
-  /* width: 100%; */
-  /* padding-left: 20px; */
-}
-.footer {
-  background-color: rgb(27, 27, 27);
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 125%;
-  flex-wrap: wrap;
-}
-
-}
-
-
-@media screen and (max-width:1366px),(max-height:768px){
-  .nav {
-    text-decoration: none;
-    height: 100px;
-    width: 125%;
-    background-color: black;
-    color: white;
-    text-decoration-line: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 25px;
-}
-.back {
-  background: url(/Countdown\ Intro\ 3D\ Video\ in\ blue\ Purple\ black\ Bold\ Tech\ Style.gif);
-  height: 600px;
-  width: 134%;
-  background-repeat: none;
-  background-size: cover;
-}
-.mid-part1 {
-  width: 107%;
-  height: 500px;
-  background-color: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.mid-part2 {
-  width: 136%;
-  height: 500px;
-  background: url(/FULL\ LOGO\ AND\ TEXT.gif);
-  background-repeat: none;
-  background-size: contain;
-  background-repeat: no-repeat;
-  left: 1000px;
-  /* padding-left: 200px; */
-  position: absolute;
-}
+  height: 30px;
+  width: 60%;
+  padding-bottom: 50px;
 }
